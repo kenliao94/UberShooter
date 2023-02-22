@@ -16,6 +16,8 @@
 #
 # This would use the information in config/locales/es.yml.
 #
+# This method allows for the internationalization of applications, allowing users to view content in different languages by setting the locale. It also provides an alias of 't' to use the I18n.t method in views. 
+#
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
