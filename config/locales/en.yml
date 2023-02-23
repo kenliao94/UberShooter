@@ -16,6 +16,22 @@
 #
 # This would use the information in config/locales/es.yml.
 #
+# The config/locales directory is used to store translation files for internationalization. Each file should contain the translations for a specific language. The translation files should be named using the language code, such as en.yml for English.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
